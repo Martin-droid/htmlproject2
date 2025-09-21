@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Character encoding for proper text display -->
     <meta charset="UTF-8">
+    <!-- Responsive design viewport settings -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page title displayed in browser tab -->
     <title>Delicious Bites Menu</title>
+    
     <style>
+        /* Global Styles */
         body {
             font-family: Georgia, serif;
             max-width: 800px;
@@ -13,6 +18,8 @@
             background-color: #f0f8ff;
             color: #333;
         }
+        
+        /* Typography */
         h1 {
             text-align: center;
             color: #2e8b57;
@@ -20,16 +27,20 @@
             margin-bottom: 30px;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
         }
+        
         h2 {
             color: #4682b4;
             border-bottom: 2px solid #ddd;
             padding-bottom: 10px;
             margin-top: 40px;
         }
+        
+        /* Menu Items */
         ul {
             list-style: none;
             padding: 0;
         }
+        
         li {
             background: white;
             margin: 15px 0;
@@ -38,26 +49,32 @@
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
             transition: transform 0.2s ease;
         }
+        
         li:hover {
             transform: translateY(-2px);
             box-shadow: 0 4px 10px rgba(0,0,0,0.15);
         }
+        
         strong {
             color: #2e8b57;
             font-size: 1.2em;
             display: block;
             margin-bottom: 8px;
         }
+        
         p {
             margin: 0;
             line-height: 1.6;
             color: #666;
         }
+        
+        /* Contact Section */
         .contact-link {
             text-align: center;
             margin-top: 50px;
             padding: 20px;
         }
+        
         .contact-link a {
             background-color: #2e8b57;
             color: white;
@@ -67,6 +84,7 @@
             font-weight: bold;
             transition: background-color 0.3s ease;
         }
+        
         .contact-link a:hover {
             background-color: #4682b4;
         }
@@ -75,6 +93,7 @@
 <body>
     <h1>Delicious Bites Menu</h1>
     
+    <!-- Appetizers Section -->
     <h2>Appetizers</h2>
     <ul>
         <li>
@@ -95,6 +114,7 @@
         </li>
     </ul>
 
+    <!-- Main Courses Section -->
     <h2>Main Courses</h2>
     <ul>
         <li>
@@ -115,6 +135,7 @@
         </li>
     </ul>
 
+    <!-- Desserts Section -->
     <h2>Desserts</h2>
     <ul>
         <li>
@@ -135,6 +156,7 @@
         </li>
     </ul>
 
+    <!-- Contact Section -->
     <div class="contact-link">
         <p><a href="contact.html">Contact us for reservations</a></p>
     </div>
